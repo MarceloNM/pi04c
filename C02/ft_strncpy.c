@@ -2,7 +2,7 @@
 #include <fcntl.h>
 #include <stdio.h>
 
-// ex01/ft_strncpy.c : Allowed functions: write
+// ex01/ft_strncpy.c : Allowed functions: none
 // reproduce the behavior of the function strncpy
 char *ft_strncpy(char *dest, char *src, unsigned int n);
 

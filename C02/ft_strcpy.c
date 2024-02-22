@@ -15,7 +15,7 @@ char *ft_strcpy(char *dest, char *src){
 }
 
 int main() {
-    write(1, "piscine 2 - 0\n", 14);
+    write(1, "piscine 1 - 0\n", 14);
     char origem[] = "abcdefg hijkl";
     char destino[20];
     printf("Original %s  cópia %s", origem, ft_strcpy(destino, origem));
