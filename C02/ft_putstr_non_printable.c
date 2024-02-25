@@ -24,7 +24,7 @@ void ft_putstr_non_printable(char *str){
 }
 
 int main() {
-    write(1, "piscine 1 - 5\n", 14);
+    write(1, "piscine 1 -11\n", 14);
     char str[] = "a\bb\tc\ed\ae\ff\ng\rh\v ij\tklm"; 
     ft_putstr_non_printable(str);
     printf("\na string é '%s'", str);
