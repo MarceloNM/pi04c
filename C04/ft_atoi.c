@@ -20,7 +20,7 @@ int ft_atoi(char *str) {
     int juntando = 1;
     int e_numero = 0;
     while ( *str != 0 && juntando) {
-        if ((*str < 48 || *str > 57) && *str != 32 && *str != 43 && *str != 45  ) {
+        if ((*str < 48 || *str > 57) && *str != 9 && *str != 32 && *str != 43 && *str != 45  ) {
             juntando = 0;
         } else {
             if (*str == 45) sinal *= -1;
@@ -44,7 +44,7 @@ int ft_atoi(char *str) {
 
 int main() {
     write(1, "piscine 4 - 3\n", 14);
-    char string0[] = " -- -+- -+43212349 ab567";
+    char string0[] = " -    - -+- -+43212349 ab567";
 //    char string0[] = "-1234";
 
     printf("string0 %s \n", string0);
